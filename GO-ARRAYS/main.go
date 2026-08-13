@@ -18,7 +18,7 @@ func main(){
 	fmt.Println(arr2)
 
 	//Accessing a element of an array
-	fmt.Println(arr2[2])
+	fmt.Println(arr2[2])	
 
 	//Changing element of an array
 
@@ -34,5 +34,5 @@ func main(){
 	fmt.Println(amount)
 	fmt.Println(len(amount))
 
-	
+
 }
