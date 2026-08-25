@@ -46,6 +46,18 @@ func main() {
 	fmt.Printf("(%v)\n", Student2.registration_id)
 	fmt.Printf("%vth semester (%v)\n", Student2.semester, Student2.course)
 	fmt.Printf("Your gpa for %vth semester is %v\n", Student2.semester, Student2.gpa)
+	fmt.Printf("\n")
+
+	printStudent(Student1)
 
 	
 }
+
+// Passing a struct as an function argument
+func printStudent(stu Student){
+		fmt.Println(stu.name)
+		fmt.Println(stu.registration_id)
+		fmt.Println(stu.course)
+		fmt.Println(stu.semester)
+		fmt.Println(stu.gpa)
+	}
